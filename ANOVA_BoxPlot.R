@@ -36,5 +36,16 @@ summary(anova_one_way)
 
 #Output
 
+Df Sum Sq Mean Sq F value   Pr(>F)    
+poison       2  1.033  0.5165   11.79 7.66e-05 ***
+Residuals   45  1.972  0.0438 
+
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+#*** mean Significant difference, no stars mean insignificant difference
+
+#Critical Value is the output of a ANOVA test, 
+which is different from the Correlation Co-effecient (Correlation-Test)
+
+#Requirements for EXAM: Plot & Output
 
